@@ -46,10 +46,7 @@ export default function Contact() {
       <section id="contact" ref={ref} className={`fade-in${visible ? ' visible' : ''}`}>
         <h2>Get In Touch</h2>
         <div className="section-rule" />
-        <p style={{ fontSize: '1.15rem', color: 'var(--text-mid)', marginBottom: '2.5rem', maxWidth: '520px' }}>
-          Whether you have a project in mind, a question, or just want to say hello — my inbox is always open.
-        </p>
-        <div style={{ display: 'flex', flexDirection: 'column', gap: '1.2rem' }}>
+<div style={{ display: 'flex', flexDirection: 'column', gap: '1.2rem' }}>
           {links.map(({ label, value, href, icon }) => (
             <a key={label} href={href} style={{
               display: 'flex', alignItems: 'center', gap: '1rem',
