@@ -7,7 +7,7 @@ const projects = [
     label: 'Hack@URI 2026 — Best Use of ElevenLabs API',
     description: 'Full-stack app for controlling a simulated quadruped robot dog via typed coordinates, click-to-navigate, and voice commands. Each action renders a real-time MP4 from a physics simulation. Built the frontend UI.',
     tags: ['React', 'Flask', 'ElevenLabsAPI'],
-    link: '#',
+    link: 'https://github.com/Gbeckler8/kinetick9',
   },
   {
     title: 'BruvacAI',

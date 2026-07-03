@@ -16,7 +16,7 @@ const links = [
   {
     label: 'LinkedIn',
     value: 'linkedin.com/in/gordon-beckler',
-    href: 'https://www.linkedin.com/in/gordon-beckler-b120233a8/',
+    href: 'https://www.linkedin.com/in/gordon-beckler',
     icon: (
       <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
         <rect x="2" y="2" width="20" height="20" rx="3"/>
