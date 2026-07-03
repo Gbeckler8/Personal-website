@@ -3,7 +3,7 @@ import { useFadeIn } from '../hooks/useFadeIn';
 
 const positions = [
   {
-    title: 'Socially Responsible Computing Undergraduate Teaching Assistant',
+    title: 'SRC Undergraduate Teaching Assistant',
     org: 'Brown University Department of Computer Science',
     period: 'Aug 2026 – Dec 2026',
     bullets: [
