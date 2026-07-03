@@ -53,7 +53,7 @@ export default function Hero() {
           borderLeft: '3px solid var(--silver-light)',
           paddingLeft: '1.2rem',
         }}>
-          Multimodal developer and researcher building applications, machine learning models, and interactive experiences.
+          Multimodal developer and researcher - building applications, machine learning models, and interactive experiences.
         </p>
 
         <div style={{ display: 'flex', gap: '1rem' }}>
