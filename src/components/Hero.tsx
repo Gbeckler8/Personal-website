@@ -12,17 +12,15 @@ export default function Hero() {
       overflow: 'hidden',
     }}>
 
-      {/* Right decorative panel — solid, present */}
-      <div style={{
+      {/* Right decorative panel — hidden on mobile */}
+      <div className="hero-panel" style={{
         position: 'absolute', right: 0, top: '10%',
         width: '38vw', height: '76vh',
         background: 'linear-gradient(160deg, var(--silver-pale) 0%, var(--off-white) 55%, var(--gold-pale) 100%)',
         borderLeft: '4px solid var(--gold)',
         zIndex: 0,
       }} />
-
-      {/* Very subtle inner shadow on the panel to give it depth */}
-      <div style={{
+      <div className="hero-panel" style={{
         position: 'absolute', right: 0, top: '10%',
         width: '38vw', height: '76vh',
         boxShadow: 'inset 12px 0 40px rgba(201,168,76,0.08)',
@@ -53,7 +51,7 @@ export default function Hero() {
           borderLeft: '3px solid var(--silver-light)',
           paddingLeft: '1.2rem',
         }}>
-          Multimodal developer and researcher - building applications, machine learning models, and interactive experiences.
+          Multimodal developer and researcher — building applications, machine learning models, and interactive experiences.
         </p>
 
         <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>

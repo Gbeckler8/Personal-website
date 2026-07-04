@@ -55,4 +55,9 @@ button:hover, .btn:hover {
   .side-chain {
     display: none;
   }
+
+  .hero-panel {
+    display: none;
+  }
+
 }
