@@ -42,3 +42,17 @@ button:hover, .btn:hover {
   color: var(--white);
   box-shadow: 0 4px 18px rgba(201,168,76,0.25);
 }
+
+@media (max-width: 768px) {
+  section {
+    padding: 48px 24px;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  .side-chain {
+    display: none;
+  }
+}

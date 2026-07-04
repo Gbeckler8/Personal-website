@@ -8,7 +8,7 @@ export default function About() {
       <section id="about" ref={ref} className={`fade-in${visible ? ' visible' : ''}`}>
         <h2>About Me</h2>
         <div className="section-rule" />
-        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '4rem', alignItems: 'center' }}>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '2.5rem', alignItems: 'center' }}>
           <div>
             <p style={{ fontSize: '1.15rem', color: 'var(--text-mid)', marginBottom: '1.2rem' }}>
               I'm a Computer Science and Music double major at Brown University, with a focus on natural language processing, research, and multimodal applications. I enjoy applying my technical skills to creative domains including music and language. My work spans full-stack development, machine learning, and interactive experiences.

@@ -44,7 +44,7 @@ export default function Experience() {
         <div style={{ display: 'flex', flexDirection: 'column', gap: '2.8rem' }}>
           {positions.map(p => (
             <div key={p.title} style={{
-              display: 'grid', gridTemplateColumns: '220px 1fr', gap: '2.5rem',
+              display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '1.5rem',
               borderLeft: '3px solid var(--gold)', paddingLeft: '2rem',
             }}>
               <div>

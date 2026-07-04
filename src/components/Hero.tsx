@@ -56,7 +56,7 @@ export default function Hero() {
           Multimodal developer and researcher - building applications, machine learning models, and interactive experiences.
         </p>
 
-        <div style={{ display: 'flex', gap: '1rem' }}>
+        <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
           <a href="#projects" style={{
             fontFamily: 'var(--font)', fontSize: '1rem', letterSpacing: '0.08em',
             padding: '0.75em 2.2em',

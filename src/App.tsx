@@ -34,8 +34,8 @@ const sideChain: React.CSSProperties = {
 function App() {
   return (
     <>
-      <div style={{ ...sideChain, left: '22px' }} />
-      <div style={{ ...sideChain, right: '22px', transform: 'scaleX(-1)' }} />
+      <div className="side-chain" style={{ ...sideChain, left: '22px' }} />
+      <div className="side-chain" style={{ ...sideChain, right: '22px', transform: 'scaleX(-1)' }} />
       <Navbar />
       <Hero />
       <About />
