@@ -16,6 +16,12 @@ const projects = [
     link: 'https://github.com/Gbeckler8/BruvacAI',
     demo_link: 'https://huggingface.co/spaces/Gbeckler/Llama-BruvacAI_Space',
   },
+  {
+    title: 'Personal Portfolio (This Website)',
+    description: 'Built with React, TypeScript, and CSS — custom hooks for fade-in animations, scroll-based navigation, and a responsive design system.',
+    tags: ['React', 'TypeScript', 'CSS'],
+    link: 'https://github.com/Gbeckler8/personal-website'
+  }
   
 ];
 
