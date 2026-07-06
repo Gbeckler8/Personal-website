@@ -41,6 +41,7 @@ export default function Projects() {
             background: 'var(--white)',
             transition: 'box-shadow 0.2s',
             display: 'flex', flexDirection: 'column',
+            minHeight: '340px',
           }}
             onMouseEnter={e => (e.currentTarget.style.boxShadow = '0 8px 32px rgba(201,168,76,0.13)')}
             onMouseLeave={e => (e.currentTarget.style.boxShadow = 'none')}
