@@ -40,8 +40,6 @@ export default function Projects() {
             padding: '2rem',
             background: 'var(--white)',
             transition: 'box-shadow 0.2s',
-            display: 'flex', flexDirection: 'column',
-            minHeight: '340px',
           }}
             onMouseEnter={e => (e.currentTarget.style.boxShadow = '0 8px 32px rgba(201,168,76,0.13)')}
             onMouseLeave={e => (e.currentTarget.style.boxShadow = 'none')}
@@ -67,7 +65,7 @@ export default function Projects() {
                 }}>{t}</span>
               ))}
             </div>
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '0.4rem', marginTop: 'auto' }}>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '0.4rem' }}>
               <a href={p.link} style={{ color: 'var(--gold)', fontWeight: 600, fontSize: '0.95rem', letterSpacing: '0.05em' }}>
                 View Project →
               </a>
