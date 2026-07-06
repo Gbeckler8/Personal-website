@@ -17,8 +17,8 @@ const projects = [
     demo_link: 'https://huggingface.co/spaces/Gbeckler/Llama-BruvacAI_Space',
   },
   {
-    title: 'Personal Portfolio (This Website)',
-    description: 'Built with React, TypeScript, and CSS — custom hooks for fade-in animations, scroll-based navigation, and a responsive design system.',
+    title: 'Personal Portfolio',
+    description: 'The source code for this personal website — built with React, TypeScript, and CSS. Custom hooks for fade-in animations, scroll-based navigation, and a responsive design system compatible on desktop and mobile.',
     tags: ['React', 'TypeScript', 'CSS'],
     link: 'https://github.com/Gbeckler8/personal-website'
   }
@@ -32,7 +32,7 @@ export default function Projects() {
     <section id="projects" ref={ref} className={`fade-in${visible ? ' visible' : ''}`}>
       <h2>Projects</h2>
       <div className="section-rule" />
-      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '2rem' }}>
+      <div className="projects-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '2rem' }}>
         {projects.map(p => (
           <div key={p.title} style={{
             border: '1px solid var(--light-gray)',

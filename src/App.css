@@ -60,4 +60,8 @@ button:hover, .btn:hover {
     display: none;
   }
 
+  .projects-grid {
+    grid-template-columns: 1fr !important;
+  }
+
 }
