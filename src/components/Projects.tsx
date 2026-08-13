@@ -17,8 +17,8 @@ const projects = [
     demo_link: 'https://huggingface.co/spaces/Gbeckler/Llama-BruvacAI_Space',
   },
   {
-    title: 'Red Wine Sales Forecasting: Classical Decomposition & Rainfall Dataset',
-    description: "Naïve seasonal, additive decomposition, and multiplicative decomposition models from scratch on 15 years of Australian red wine sales with explicit design choices for a leakage-safe train-test split and trend extrapolation window. Sourced and published a Southeastern Australian rainfall dataset to analyze rainfall as a residual predictor, tested across 36 lags.", 
+    title: 'Red Wine Sales Forecasting & Rainfall Dataset',
+    description: "Naïve seasonal, additive decomposition, and multiplicative decomposition models from scratch with explicit design choices for a leakage-safe train-test split and trend extrapolation window. Sourced and published a Southeastern Australian rainfall dataset to analyze rainfall as a residual predictor, tested across 36 lags.", 
     tags: ['Python', 'Pandas', 'Kaggle'],
     Jupyter_notebook_link: 'https://www.kaggle.com/code/gordonbeckler/red-wine-forecasting-with-rainfall-testing',
     Rainfall_dataset_link: 'https://www.kaggle.com/datasets/gordonbeckler/se-australia-monthly-rainfall-19502026/data',

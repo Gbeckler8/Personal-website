@@ -20,7 +20,6 @@ export default function About() {
           }}>
             {[
               ['Degree', 'Sc. B. Computer Science, A.B. Music, Brown University'],
-              ['Focus', 'Multimodal Technology, NLP'],
               ['Location', 'Providence, RI & Briarcliff Manor, NY'],
               ['Email', 'gbciaobella@gmail.com'],
             ].map(([label, value]) => (
