@@ -3,12 +3,8 @@ import { useFadeIn } from '../hooks/useFadeIn';
 
 const skillGroups = [
   {
-    category: 'Languages',
-    skills: ['Java', 'Python', 'C/C++', 'JavaScript/TypeScript'],
-  },
-  {
-    category: 'Frameworks & Libraries',
-    skills: ['React', 'Node.js', 'Flask', 'Scikit-Learn', 'PyTorch', 'NumPy', 'Pandas', 'Librosa', 'Hugging Face'],
+    category: 'Technical Skills',
+    skills: ['Java', 'Python (Sci-kit Learn, Pandas, Pytorch)', 'C/C++', 'Javascript/TypeScript', 'React', 'Node.js', 'Flask', 'Vite', 'AWS (ECR, ECS Express Mode, Amplify)', 'Git', 'Docker', 'HTML/CSS']
   },
   {
     category: 'Selected Concepts',

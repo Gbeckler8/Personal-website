@@ -11,7 +11,7 @@ export default function About() {
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '2.5rem', alignItems: 'center' }}>
           <div>
             <p style={{ fontSize: '1.15rem', color: 'var(--text-mid)', marginBottom: '1.2rem' }}>
-              I'm a Computer Science and Music double major at Brown University, with a focus on natural language processing, research, and multimodal applications. I enjoy applying my technical skills to creative domains including music and language. My work spans full-stack development, machine learning, and interactive experiences.
+              I'm a Computer Science and Music double major at Brown University, with a focus on natural language processing, research, and multimodal applications. I enjoy applying my technical skills to creative domains including music and language. I'm also always eager to find creative solutions to complex problems.
             </p>
           </div>
           <div style={{
@@ -19,7 +19,7 @@ export default function About() {
             borderLeft: '4px solid var(--gold)', padding: '2rem 2.5rem',
           }}>
             {[
-              ['Degree', 'B.S. Computer Science, A.B. Music, Brown University'],
+              ['Degree', 'Sc. B. Computer Science, A.B. Music, Brown University'],
               ['Focus', 'Multimodal Technology, NLP'],
               ['Location', 'Providence, RI & Briarcliff Manor, NY'],
               ['Email', 'gbciaobella@gmail.com'],
