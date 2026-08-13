@@ -3,13 +3,13 @@ import { useFadeIn } from '../hooks/useFadeIn';
 
 const positions = [
   {
-    title: 'SRC Undergraduate Teaching Assistant',
+    title: 'Socially Responsible Computing (SRC) Undergraduate Teaching Assistant',
     org: 'Brown University Department of Computer Science',
     period: 'Aug 2026 – Dec 2026',
     bullets: [
-      'TA for CSCI0300: Fundamentals of Computer Systems, covering topics including operating systems and concurrency.',
-      'Developing socially responsible computing (SRC) course content with a special focus on ethics in systems.',
-      'Holding weekly office hours to support students with course content and debugging.',
+      'Covering topics such as operating systems and concurrency for an intermediate systems course at Brown University with a primary focus on SRC',
+      'Developing engaging and informative SRC course content',
+      'Holding weekly office hours to help students with course content and aid students in the debugging process',
     ],
   },
   {
@@ -17,9 +17,10 @@ const positions = [
     org: 'NYU Department of Computer Science',
     period: 'April 2026 – Present',
     bullets: [
-      'Contributing to Attune, a real-time music practice feedback tool, as part of DSP research.',
-      'Contributions include mistake-detection UI, audio trimming logic, and ongoing experiment design and execution.',
-      'Second author on forthcoming publication.',
+      'Co-developing Attune, a real-time music practice feedback tool',
+      'Spearheading web deployment, moving Attune from research prototype to public tool',
+      'Built a mistake review subsystem and audio trimming logic, and contributed to experiment design and execution',
+      'Contributing as second author on forthcoming publication',
     ],
   },
   {
@@ -27,9 +28,9 @@ const positions = [
     org: 'The Higher Keys, Brown University',
     period: 'Jan 2026 – Dec 2026',
     bullets: [
-      "Music Director of the Higher Keys, Brown University's oldest all-gender a cappella group.",
-      'Orchestrated jazz vocal arrangements performed at campus concerts, local gigs, and on tour.',
-      'Co-directed the recording of a Christmas album to be released on Spotify.',
+      "Directing and conducting the Higher Keys, a vocal jazz group at Brown University",
+      'Arranging and orchestrating jazz vocal compositions for campus events, local venues, and international and domestic tours',
+      'Co-directed the recording of a Christmas Album to be released on Spotify and co-directing an upcoming Tokyo concert tour',
     ],
   },
 ];
