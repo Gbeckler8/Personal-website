@@ -5,7 +5,7 @@ const positions = [
   {
     title: 'Socially Responsible Computing (SRC) Undergraduate Teaching Assistant',
     org: 'Brown University Department of Computer Science',
-    period: 'Aug 2026 – Dec 2026',
+    period: 'Sep 2026 – Dec 2026',
     bullets: [
       'Covering topics such as operating systems and concurrency for an intermediate systems course at Brown University with a primary focus on SRC',
       'Developing engaging and informative SRC course content',
@@ -13,7 +13,7 @@ const positions = [
     ],
   },
   {
-    title: 'Research Collaborator',
+    title: 'Student Researcher',
     org: 'NYU Department of Computer Science',
     period: 'April 2026 – Present',
     bullets: [
